@@ -14,7 +14,7 @@ Serial.begin(9600);
 
 void loop() {
   // put your main code here, to run repeatedly:
-delay (1000);
+delay (200);
 
 float distance = sonar.ping_cm();
 
